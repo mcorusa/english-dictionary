@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background:linear-gradient(to left bottom, pink, rgba(255, 85, 0, 0.708), pink);
+    min-height: 100vh;
+    /*kod tebe bilo height*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Courier New', Courier, monospace
+}
+.input-box{
+    height: 53px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-color: rgba(255, 255, 255, .4);
+    font-size: 16px;
+    padding: 0 42px;
+    
+}
+
+.container{
+    /* border: 1px solid black; */
+    border-radius: 7px;
+    background-color:rgba(248, 206, 219, 0.455);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 28px;
+    width: 90%;
+    margin: 10px;
+    max-width: 450px;
+
+}
+.heading{
+    font-size: 28px;
+}
+.meaning-container{
+    display: none;
+}
